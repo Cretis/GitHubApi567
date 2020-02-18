@@ -4,7 +4,7 @@ from HW04a import get_git_hub
 
 class TestHw04(unittest.TestCase):
     def testCase1(self):
-        self.assertEqual(get_git_hub('Cretis'), ['Repo:GitHubApi567 Number of commits: 12',
+        self.assertEqual(get_git_hub('Cretis'), ['Repo:GitHubApi567 Number of commits: 14',
                                                  'Repo:SSW567 Number of commits: 2',
                                                  'Repo:SSW810 Number of commits: 4',
                                                  'Repo:Triangle567 Number of commits: 17'])
